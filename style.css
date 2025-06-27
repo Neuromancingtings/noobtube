@@ -1,8 +1,6 @@
 body {
     margin: 0;
     padding:0;
-    background-image:url("./images/theeye.avif");
-    background-size:cover;
     height:1200px;
     width:100%;
 }
@@ -13,5 +11,5 @@ h1 {
 
 p {
     color:white;
-    
+
 }
