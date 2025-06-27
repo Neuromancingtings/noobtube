@@ -1,0 +1,9 @@
+html, body {
+    margin: 0;
+    padding:0;
+    background-image:url("./images/theeye.avif.")
+}
+
+h1 {
+    color: red;
+}
