@@ -3,12 +3,12 @@ body {
     padding:0;
     height:1200px;
     width:100%;
-    }
+    background-image:url("./images/cat.jpg.");
 
-.header {
+header {
     height:100px;
     width:100%;
-    color:blanchedalmond
+    color:blanchedalmond;
 }
 
 h1 {
@@ -17,5 +17,4 @@ h1 {
 
 p {
     color:white;
-
 }
