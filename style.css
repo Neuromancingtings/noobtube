@@ -10,17 +10,32 @@ body {
 }
 
 header {
-    height:100px;
-    width:100%;
-    color:blanchedalmond;
     display: flex;
     justify-content: flex-end;
+    margin: 100 px;
+}
+
+header h1 {
+    color:crimson;
+    font-size:90px;
+    font-family: impact;
+
+}
+
+main {
+    display: flex;
+    flex-direction:column;
+    justify-content:center; 
+    align-items:center;
+
+}
+main h2 {
+    font-family: impact;
+    font-size: 40px;
+    font-color:blue;
+
 }
 
 h1 {
     color: red;
-}
-
-p {
-    color:blue;
 }
