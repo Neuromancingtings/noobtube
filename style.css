@@ -13,6 +13,8 @@ header {
     height:100px;
     width:100%;
     color:blanchedalmond;
+    display: flex;
+    justify-content: flex-end;
 }
 
 h1 {
