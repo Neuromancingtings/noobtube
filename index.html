@@ -10,9 +10,13 @@
     <title>Lando Page</title>
   </head>
   <body>
-      <audio>
-        <source src="./images/lando.mp3" type="audio/mpeg">
+      <audio  id="bubble-audio">
+        <source src="./images/lando.mp3" type="audio/mpeg" controls>
       </audio>
+
+      <div class="speech-bubble" id="lando-bubble">
+        <p>Click Me!</p>
+      </div>
       
 
  
@@ -26,19 +30,29 @@
       <div class="image-table">
          <a href ="./itsacat1.html"><img src ="./images/door1.jpg" alt="Door #1" width="200" height="200"></a>
          <a href= "./greendoor.html"><img src="./images/door2.jpg" alt="Door #2" width="200" height="200"></a>
-         <a href ="./itsacat3.html"><img src="./images/door3.jpg" alt="Door #3" width="200" height="200"></a>
+         <a href ="./morrison.html"><img src="./images/door3.jpg" alt="Door #3" width="200" height="200"></a>
+       
       </div>
+
+      
     </main>
 
+<script>
+  const bubble = document.getElementById('lando-bubble');
+  const audio = document.getElementById('bubble-audio');
+
+  bubble.addEventListener('click', () => {
+    audio.currentTime = 0; // restart every time
+    audio.play().catch(err => {
+    console.error("Audio play failed:", err);  
+    });
+  });
+</script>
 
 
-
-
-    <div id="app"></div>
-   <!-- In case I add Javascrsipt)
 
     <script type="module" src="/src/main.js"></script> 
-    -->
+    
 
   </body>
 </html>
