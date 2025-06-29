@@ -14,3 +14,13 @@ body {
     align-items:center;
     justify-content: center;
 }
+
+.framed-video {
+  border: 20px solid green;
+  box-shadow: 0 0 20px rgba(0, 255, 0, 0.6);
+  border-radius: 12px;
+  width: 800px;
+  height: 600px;
+  display: block;
+  margin: auto;
+}
